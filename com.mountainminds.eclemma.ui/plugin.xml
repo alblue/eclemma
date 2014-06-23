@@ -747,7 +747,8 @@
    <extension
          point="org.eclipse.ui.popupMenus">
        <objectContribution
-            objectClass="java.lang.Object"
+            objectClass="org.eclipse.core.resources.IResource"
+            adaptable="true"
             id="com.mountainminds.eclemma.ui.contextualLaunch.coverage">
          <action
                label="%CoverageContextMenu.label"
